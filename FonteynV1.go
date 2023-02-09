@@ -6,11 +6,19 @@ import (
 )
 
 func main() {
+	greet := realTime()
+	greeting(greet)
+}
 
+// geeft de realistische tijd weer in uren
+func realTime() int {
 	currentTime := time.Now()
 	groet := currentTime.Hour()
+	return groet
+}
 
-	fmt.Println(groet)
+func greeting(groet int) {
+
 	if groet >= 7 && groet <= 11 {
 		fmt.Println("Goedenmorgen")
 	} else if groet >= 12 && groet <= 18 {
