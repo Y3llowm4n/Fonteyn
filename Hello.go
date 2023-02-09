@@ -2,10 +2,8 @@ package main
 
 import "fmt"
 
-func main()	{
-
-fmt.Println("Welkom op fonteyn vakantieparken")
+func main() {
+	//ik ga greeting toevoegen.
+	fmt.Println("Welkom op fonteyn vakantieparken")
 
 }
-
-
