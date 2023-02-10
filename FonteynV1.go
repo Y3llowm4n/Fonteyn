@@ -29,3 +29,5 @@ func greeting(groet int) {
 		fmt.Println("Sorry, de parkeerplaats is ’s nachts gesloten")
 	}
 }
+
+//askmdkasd
