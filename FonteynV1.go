@@ -18,7 +18,7 @@ var (
 
 // hierin wordt de input aangemaakt, waar de gebruiker zijn/haar kenteken kan invullen.
 func init() {
-	flag.StringVar(&kenteken, "k", "MG-21-YP", "kenteken van nummerplaat")
+	flag.StringVar(&kenteken, "k", "", "Voorbeeld: MG-21-YP")
 	flag.Parse()
 }
 
