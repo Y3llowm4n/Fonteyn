@@ -33,9 +33,9 @@ func check(greet int) {
 		}
 	}
 
-	//Als het kenteken matched wordt er een welkoms bericht gegeven. Zo niet dan heeft de persoon geen toegang.
+	//Als het kenteken matched wordt er een welkomsbericht gegeven. Zo niet dan heeft de persoon geen toegang.
 	if found {
-		greeting(greet)	
+		fmt.Println(greeting(greet))
 	} else {
 		fmt.Println("U heeft helaas geen toegang tot het parkeerterrein.")
 	}
